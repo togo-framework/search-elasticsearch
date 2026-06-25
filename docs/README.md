@@ -22,9 +22,9 @@ Environment variables read by this plugin (extracted from the source — see the
 
 | Env var |
 |---|
-| `SEARCH_PASSWORD"` |
-| `SEARCH_URL"` |
-| `SEARCH_USERNAME"` |
+| `SEARCH_PASSWORD` |
+| `SEARCH_URL` |
+| `SEARCH_USERNAME` |
 
 ## Usage
 
