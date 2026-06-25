@@ -1,6 +1,6 @@
 # search-elasticsearch — documentation
 
-  <img src=".github/assets/togo-mark.svg" alt="togo" height="64" />
+Elasticsearch/OpenSearch driver for togo search
 
 ## Overview
 
@@ -18,14 +18,13 @@ Set `SEARCH_DRIVER=elasticsearch`.
 
 ## Configuration
 
-Environment variables read by this plugin (extracted from the source):
+Environment variables read by this plugin (extracted from the source — see the gateway/provider docs for each value):
 
-| Env var | Notes |
-|---|---|
-| `G` | _see provider docs_ |
-| `SEARCH_PASSWORD` | _see provider docs_ |
-| `SEARCH_URL` | _see provider docs_ |
-| `SEARCH_USERNAME` | _see provider docs_ |
+| Env var |
+|---|
+| `SEARCH_PASSWORD"` |
+| `SEARCH_URL"` |
+| `SEARCH_USERNAME"` |
 
 ## Usage
 
@@ -39,4 +38,4 @@ hits, _ := s.Search(ctx, "posts", "query")
 
 - Marketplace: https://to-go.dev/marketplace
 - Source: https://github.com/togo-framework/search-elasticsearch
-- README: ../README.md
+- Full README: ../README.md
